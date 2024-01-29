@@ -1,5 +1,5 @@
 let x: unknown = 'hello';
-console.log((x as string).length);
+console.log((x as number));
 //console.log((4 as string).length); // Error: Conversion of type 'number' to type 'string'
 //Casting with <>
 let num:unknown = 23;

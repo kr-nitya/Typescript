@@ -1,5 +1,6 @@
 //Typed Object ==> Sepcify data type
-const obj: { name: string; age: number } = {
+type Obj1 = { name: string; age: number }
+const obj: Obj1 = {
   name: "Nitya",
   age: 21,
 };

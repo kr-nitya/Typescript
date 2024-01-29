@@ -4,7 +4,7 @@ name1.push("Nitya");
 name1.push("123");
 console.log(name1);
 //Use of readonly == > Only one time add
-const oneTime: readonly number[] = [1, 2];
+const oneTime: readonly number [] = [1, 2];
 //oneTime.push(23); //Can not add because it is readonly
 console.log(oneTime);
 
